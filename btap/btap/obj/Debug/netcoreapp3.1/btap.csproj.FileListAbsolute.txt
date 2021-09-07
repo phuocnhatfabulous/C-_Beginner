@@ -1,0 +1,13 @@
+/Users/phuocnhat/Projects/btap/btap/bin/Debug/netcoreapp3.1/btap.deps.json
+/Users/phuocnhat/Projects/btap/btap/bin/Debug/netcoreapp3.1/btap.runtimeconfig.json
+/Users/phuocnhat/Projects/btap/btap/bin/Debug/netcoreapp3.1/btap.runtimeconfig.dev.json
+/Users/phuocnhat/Projects/btap/btap/bin/Debug/netcoreapp3.1/btap.dll
+/Users/phuocnhat/Projects/btap/btap/bin/Debug/netcoreapp3.1/btap.pdb
+/Users/phuocnhat/Projects/btap/btap/obj/Debug/netcoreapp3.1/btap.csproj.AssemblyReference.cache
+/Users/phuocnhat/Projects/btap/btap/obj/Debug/netcoreapp3.1/btap.GeneratedMSBuildEditorConfig.editorconfig
+/Users/phuocnhat/Projects/btap/btap/obj/Debug/netcoreapp3.1/btap.AssemblyInfoInputs.cache
+/Users/phuocnhat/Projects/btap/btap/obj/Debug/netcoreapp3.1/btap.AssemblyInfo.cs
+/Users/phuocnhat/Projects/btap/btap/obj/Debug/netcoreapp3.1/btap.csproj.CoreCompileInputs.cache
+/Users/phuocnhat/Projects/btap/btap/obj/Debug/netcoreapp3.1/btap.dll
+/Users/phuocnhat/Projects/btap/btap/obj/Debug/netcoreapp3.1/btap.pdb
+/Users/phuocnhat/Projects/btap/btap/obj/Debug/netcoreapp3.1/btap.genruntimeconfig.cache
