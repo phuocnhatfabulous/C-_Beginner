@@ -1,0 +1,15 @@
+/Users/phuocnhat/Projects/OOP/OOP/bin/Debug/net5.0/OOP.deps.json
+/Users/phuocnhat/Projects/OOP/OOP/bin/Debug/net5.0/OOP.runtimeconfig.json
+/Users/phuocnhat/Projects/OOP/OOP/bin/Debug/net5.0/OOP.runtimeconfig.dev.json
+/Users/phuocnhat/Projects/OOP/OOP/bin/Debug/net5.0/OOP.dll
+/Users/phuocnhat/Projects/OOP/OOP/bin/Debug/net5.0/ref/OOP.dll
+/Users/phuocnhat/Projects/OOP/OOP/bin/Debug/net5.0/OOP.pdb
+/Users/phuocnhat/Projects/OOP/OOP/obj/Debug/net5.0/OOP.csproj.AssemblyReference.cache
+/Users/phuocnhat/Projects/OOP/OOP/obj/Debug/net5.0/OOP.GeneratedMSBuildEditorConfig.editorconfig
+/Users/phuocnhat/Projects/OOP/OOP/obj/Debug/net5.0/OOP.AssemblyInfoInputs.cache
+/Users/phuocnhat/Projects/OOP/OOP/obj/Debug/net5.0/OOP.AssemblyInfo.cs
+/Users/phuocnhat/Projects/OOP/OOP/obj/Debug/net5.0/OOP.csproj.CoreCompileInputs.cache
+/Users/phuocnhat/Projects/OOP/OOP/obj/Debug/net5.0/OOP.dll
+/Users/phuocnhat/Projects/OOP/OOP/obj/Debug/net5.0/ref/OOP.dll
+/Users/phuocnhat/Projects/OOP/OOP/obj/Debug/net5.0/OOP.pdb
+/Users/phuocnhat/Projects/OOP/OOP/obj/Debug/net5.0/OOP.genruntimeconfig.cache
