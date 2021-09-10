@@ -33,6 +33,11 @@ namespace OOP
         public long salary;
         public string subject;
 
+        void Payment()
+        {
+
+        }
+
     }
     //Class 3
     class Student : Person
@@ -40,6 +45,10 @@ namespace OOP
         public double point;
         public string types;
 
+        void Average()
+        {
+
+        }
 
     }
     //Class 4
