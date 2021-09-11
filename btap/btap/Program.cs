@@ -1,44 +1,33 @@
 ﻿using System;
 
-namespace btap
+namespace DoanPhuocNhat
 {
     class Program
     {
-        public string hoten;
-        public int tuoi;
-        public string gtinh;
-
+        public int key;
+        public string answer;
         //Declare data types
-        static void Types()
+        void Types()
         {
             Console.WriteLine("Chuyen doi kieu du lieu trong C#");
             int a = 100;
             double b = 100.222;
             char c = 'N';
 
-            int i = (int)b;
+            //Implicit & explicit
+            //Ep kieu ngam dinh, tuong minh
+            int i = (int)b; //implicit: ngam dinh
             Console.WriteLine("Gia tri cua i: " + i);
 
-            Console.WriteLine(c.ToString());
+            Console.WriteLine(c.ToString()); //explicit: tuong minh
         }
-        //Contructor with parameters
-        public Program(string hoten1, int tuoi1, string gtinh1)
-        {
-            hoten = hoten1;
-            tuoi = tuoi1;
-            gtinh = gtinh1;
-        }
-        //Contructor without parameters
-        public Program()
-        {
 
-        }
         //Declare variable and constant
         void VarCon()
         {
             //Variable
             int a = 10;
-            double b = 2.12;
+            double b = 2.132;
             short c = 5;
             Console.WriteLine("a = {0}, b = {1}, c = {2}", a, b, c);
 
@@ -48,20 +37,60 @@ namespace btap
             Console.WriteLine("Radius: ");
             r = Convert.ToDouble(Console.ReadLine());
             double s = r * r * pi;
-            Console.WriteLine("Area = {0}", s);
+            Console.WriteLine("Area = {0}"+"; "+ "{1}" , s, (int)s);
+        }
+        void ConditionStructure()
+        {
+            Console.WriteLine("Are you a robot? yes or no");
+            answer = Convert.ToString(Console.ReadLine());
+
+            Console.Write("Verifying that you're not a robot (1+1) = ");
+            key = Convert.ToInt16(Console.ReadLine());
+
+            if (key == 2 && answer == "no") //Operator ==, &&
+            {
+                Menu();
+            }
+            else
+            {
+                Console.WriteLine("Exit system");
+                Environment.Exit(0);
+            }
+        }
+        //Menu
+        void Menu()
+        {
+            Console.WriteLine("\n-----Menu-----");
+            Console.WriteLine("1. Khai bao bien hang.");
+            Console.WriteLine("2. Ep kieu du lieu.");
+            Console.WriteLine("3. Thoat.");
+            Console.Write("Chon: ");
+            key = Convert.ToInt16(Console.ReadLine());
+
+            switch (key)
+            {
+                case 1:
+                    VarCon();
+                    break;
+                case 2:
+                    Types();
+                    break;
+                case 3:
+                    Environment.Exit(0);
+                    break;
+                default:
+                    Console.WriteLine("Gia tri khong hop le");
+                    break;
+            }
         }
 
         // Main function
         static void Main(string[] args)
         {
-            Program Info = new Program("Nhat", 21, "nam");
-            Types(); //Static void Types
-            Console.WriteLine(Info.hoten + " " + Info.tuoi + " " + Info.gtinh);
-
-            //Khong can static
+            int key;
             Program a = new Program();
-            a.VarCon();
-
+            a.ConditionStructure();
+            
             Console.ReadKey();
         }
     }
