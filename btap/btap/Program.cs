@@ -6,11 +6,12 @@ namespace DoanPhuocNhat
     {
         public int key;
         public string answer;
+        int i = 0;
+
         //Declare data types
         void Types()
         {
             Console.WriteLine("Chuyen doi kieu du lieu trong C#");
-            int a = 100;
             double b = 100.222;
             char c = 'N';
 
@@ -47,15 +48,17 @@ namespace DoanPhuocNhat
             Console.Write("Verifying that you're not a robot (1+1) = ");
             key = Convert.ToInt16(Console.ReadLine());
 
-            if (key == 2 && answer == "no") //Operator ==, &&
-            {
-                Menu();
-            }
-            else
-            {
-                Console.WriteLine("Exit system");
-                Environment.Exit(0);
-            }
+                if (key == 2 && answer == "no") //Operator ==, &&
+                {
+                    Menu();
+                }
+                else
+                {
+                    Console.WriteLine("Again!!!");
+                    ConditionStructure();
+                }
+
+            
         }
         //Menu
         void Menu()
@@ -87,7 +90,6 @@ namespace DoanPhuocNhat
         // Main function
         static void Main(string[] args)
         {
-            int key;
             Program a = new Program();
             a.ConditionStructure();
             
