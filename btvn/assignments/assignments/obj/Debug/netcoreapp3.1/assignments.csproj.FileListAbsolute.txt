@@ -1,0 +1,13 @@
+/Users/phuocnhat/Projects/C-_Beginner/btvn/assignments/assignments/bin/Debug/netcoreapp3.1/assignments.deps.json
+/Users/phuocnhat/Projects/C-_Beginner/btvn/assignments/assignments/bin/Debug/netcoreapp3.1/assignments.runtimeconfig.json
+/Users/phuocnhat/Projects/C-_Beginner/btvn/assignments/assignments/bin/Debug/netcoreapp3.1/assignments.runtimeconfig.dev.json
+/Users/phuocnhat/Projects/C-_Beginner/btvn/assignments/assignments/bin/Debug/netcoreapp3.1/assignments.dll
+/Users/phuocnhat/Projects/C-_Beginner/btvn/assignments/assignments/bin/Debug/netcoreapp3.1/assignments.pdb
+/Users/phuocnhat/Projects/C-_Beginner/btvn/assignments/assignments/obj/Debug/netcoreapp3.1/assignments.csproj.AssemblyReference.cache
+/Users/phuocnhat/Projects/C-_Beginner/btvn/assignments/assignments/obj/Debug/netcoreapp3.1/assignments.GeneratedMSBuildEditorConfig.editorconfig
+/Users/phuocnhat/Projects/C-_Beginner/btvn/assignments/assignments/obj/Debug/netcoreapp3.1/assignments.AssemblyInfoInputs.cache
+/Users/phuocnhat/Projects/C-_Beginner/btvn/assignments/assignments/obj/Debug/netcoreapp3.1/assignments.AssemblyInfo.cs
+/Users/phuocnhat/Projects/C-_Beginner/btvn/assignments/assignments/obj/Debug/netcoreapp3.1/assignments.csproj.CoreCompileInputs.cache
+/Users/phuocnhat/Projects/C-_Beginner/btvn/assignments/assignments/obj/Debug/netcoreapp3.1/assignments.dll
+/Users/phuocnhat/Projects/C-_Beginner/btvn/assignments/assignments/obj/Debug/netcoreapp3.1/assignments.pdb
+/Users/phuocnhat/Projects/C-_Beginner/btvn/assignments/assignments/obj/Debug/netcoreapp3.1/assignments.genruntimeconfig.cache
