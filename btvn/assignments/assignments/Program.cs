@@ -42,14 +42,15 @@ namespace assignments
 
                 i++;
             }
-            while (((username != "admin") || (password != "123"))
-                || (i <= 3));
+            while (((username != "admin") || (password != "123")) && i < 4);
 
-            if (((username == "admin") || (password == "123"))
-                && (i <= 4))
+            if (((username == "admin") && (password == "123"))
+                && (i <= 4 ))
+            {
                 Console.WriteLine("Dang nhap thanh cong!");
+            }
             else
-                Console.WriteLine("Dang nhap that bai!");
+                Console.WriteLine("Dang nhap that baiiii!");
             Main();
         }
 
@@ -176,7 +177,7 @@ namespace assignments
         {
             int a, kq;
 
-            Console.Write("Nhap mot so bat ky: ");
+            Console.Write("Nhap so nguyen: ");
             a = Convert.ToInt16(Console.ReadLine());
 
             for (int i = 0; i < 11; i++)
@@ -189,13 +190,12 @@ namespace assignments
 
         /*
          * Bài tập 7 mở rộng: Cho phép người dùng nhập n số (kiếm tra có số lẻ ->
-        nếu không bắt người dùng nhập lại, người dùng có thể nhập 3 lần ->
+        nếu không dung bắt người dùng nhập lại, người dùng có thể nhập sai 3 lần ->
         Tính tổng của dãy số lẻ người dùng nhập vào.
          */
         void bai7()
         {
-            int i, n, sum = 0;
-
+            int i, n, c = 0, sum = 0;
             Console.Write("Nhap so luong so le can tinh: ");
             n = Convert.ToInt16(Console.ReadLine());
             int[] a = new int[n];
@@ -203,47 +203,25 @@ namespace assignments
 
             for (i = 0; i < n; i++)
             {
-                Console.Write("Nhap so le thu " + i + ": ");
-                a[i] = Int32.Parse(Console.ReadLine());
-
-                if (a[i] % 2 > 0)
+                //Console.Write("Nhap so le thu " + i + ": ");
+                //a[i] = Int32.Parse(Console.ReadLine());
+                do
                 {
-
-                }
-                else
-                {
-                    Console.Write("Canh cao lan 1, vui long nhap lai so le: ");
+                    Console.Write("Nhap so le thu " + i + ": ");
                     a[i] = Int32.Parse(Console.ReadLine());
-                    if (a[i] % 2 > 0)
-                    {
-
-                    }
-                    else
-                    {
-                        Console.Write("Canh cao lan 2, vui long nhap lai so le: ");
-                        a[i] = Int32.Parse(Console.ReadLine());
-                        if (a[i] % 2 > 0)
-                        {
-
-                        }
-                        else
-                        {
-                            Console.Write("Canh cao lan 3, vui long nhap lai so le: ");
-                            a[i] = Int32.Parse(Console.ReadLine());
-                            if (a[i] % 2 > 0)
-                            {
-
-                            }
-                            else
-                            {
-                                Console.Write("Ban da nhap sai qua 3 lan");
-                                Main();
-                            }
-                        }
-                    }
+                    c++;
                 }
+                while (a[i]%2 == 0 && c <= 3);
+
+                if (a[i] % 2 == 0 || c > 3)
+                {
+                    Console.WriteLine("Nhap sai so!");
+                    Main();
+                }
+
                 sum = sum + a[i];
             }
+
             Console.WriteLine("Tong so le: " + sum);
             Main();
         }
@@ -253,7 +231,7 @@ namespace assignments
         {
             int i, f = 1, num;
 
-            Console.Write("Nhap mot so bat ky: ");
+            Console.Write("Nhap so nguyen: ");
             num = Convert.ToInt16(Console.ReadLine());
             for (i = 1; i <= num; i++)
                 f = f * i;
