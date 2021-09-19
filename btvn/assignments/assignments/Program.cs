@@ -195,7 +195,7 @@ namespace assignments
          */
         void bai7()
         {
-            int i, n, c = 0, sum = 0;
+            int i, n, k, c = 0, sum = 0;
             Console.Write("Nhap so luong so le can tinh: ");
             n = Convert.ToInt16(Console.ReadLine());
             int[] a = new int[n];
@@ -203,26 +203,37 @@ namespace assignments
 
             for (i = 0; i < n; i++)
             {
-                //Console.Write("Nhap so le thu " + i + ": ");
-                //a[i] = Int32.Parse(Console.ReadLine());
-                do
-                {
+                if(c <= 3){
                     Console.Write("Nhap so le thu " + i + ": ");
-                    a[i] = Int32.Parse(Console.ReadLine());
-                    c++;
-                }
-                while (a[i]%2 == 0 && c <= 3);
+                    k = Convert.ToInt32(Console.ReadLine());
+                    if(k%2 == 1)
+                    {
+                        a[i] = k;
+                        c = 0;
+                        sum += a[i];
+                    }
+                    else
+                    {
+                        i--;
+                        c++;
+                        Console.WriteLine("saiii");
+                    }
 
-                if (a[i] % 2 == 0 || c > 3)
+                }
+                else
                 {
-                    Console.WriteLine("Nhap sai so!");
-                    Main();
+                    break;
                 }
-
-                sum = sum + a[i];
+            }
+            if(c == 0)
+            {
+                Console.WriteLine("Tong: " + sum);
+            }
+            else
+            {
+                Console.WriteLine("Sai nhieu lan");
             }
 
-            Console.WriteLine("Tong so le: " + sum);
             Main();
         }
 
@@ -232,7 +243,7 @@ namespace assignments
             int i, f = 1, num;
 
             Console.Write("Nhap so nguyen: ");
-            num = Convert.ToInt16(Console.ReadLine());
+            num = Convert.ToInt32(Console.ReadLine());
             for (i = 1; i <= num; i++)
                 f = f * i;
 
