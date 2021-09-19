@@ -1,1 +1,6 @@
-# C-_Beginner
+# C# for Beginner
+
+```
+  Console.WriteLine("Hello, world");
+```
+
