@@ -1,7 +1,7 @@
 # C# for Beginner
 
 1. Declare variable & constant, Array, String, Condition staments.
-```
+```C#
   Console.WriteLine("Hello, world");
 ```
 - [Variable & Constant](https://www.w3schools.com/cs/cs_variables.php)
