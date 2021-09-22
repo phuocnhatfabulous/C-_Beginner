@@ -16,6 +16,5 @@
 ---
 ## 2. Some basic algorithms (Sorting, Searching) <img src="https://raw.githubusercontent.com/ItsAnunesS/ItsAnunesS/master/src/img/parrots/flags/indiaparrot.gif" width="30" height="40"/>
  - A `Sorting Algorithm` is used to rearrange a given array or list elements according to a comparison operator on the elements. The comparison operator is used to decide the new order of element in the respective data structure.
-
-
+ 
 <img height="120" alt="I'm VietNamese" width="100%" src="https://raw.githubusercontent.com/BrunnerLivio/brunnerlivio/master/images/marquee.svg" />
