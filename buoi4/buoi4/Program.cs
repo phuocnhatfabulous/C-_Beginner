@@ -191,7 +191,6 @@ namespace buoi3
             e.print(2.3);
             e.print("Phuoc Nhat");
             //VD6
-            Console.ReadKey();
 
         }
     }
