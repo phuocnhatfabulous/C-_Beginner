@@ -1,0 +1,13 @@
+/Users/phuocnhat/Projects/buoi3/buoi3/bin/Debug/netcoreapp3.1/buoi3.deps.json
+/Users/phuocnhat/Projects/buoi3/buoi3/bin/Debug/netcoreapp3.1/buoi3.runtimeconfig.json
+/Users/phuocnhat/Projects/buoi3/buoi3/bin/Debug/netcoreapp3.1/buoi3.runtimeconfig.dev.json
+/Users/phuocnhat/Projects/buoi3/buoi3/bin/Debug/netcoreapp3.1/buoi3.dll
+/Users/phuocnhat/Projects/buoi3/buoi3/bin/Debug/netcoreapp3.1/buoi3.pdb
+/Users/phuocnhat/Projects/buoi3/buoi3/obj/Debug/netcoreapp3.1/buoi3.csproj.AssemblyReference.cache
+/Users/phuocnhat/Projects/buoi3/buoi3/obj/Debug/netcoreapp3.1/buoi3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/phuocnhat/Projects/buoi3/buoi3/obj/Debug/netcoreapp3.1/buoi3.AssemblyInfoInputs.cache
+/Users/phuocnhat/Projects/buoi3/buoi3/obj/Debug/netcoreapp3.1/buoi3.AssemblyInfo.cs
+/Users/phuocnhat/Projects/buoi3/buoi3/obj/Debug/netcoreapp3.1/buoi3.csproj.CoreCompileInputs.cache
+/Users/phuocnhat/Projects/buoi3/buoi3/obj/Debug/netcoreapp3.1/buoi3.dll
+/Users/phuocnhat/Projects/buoi3/buoi3/obj/Debug/netcoreapp3.1/buoi3.pdb
+/Users/phuocnhat/Projects/buoi3/buoi3/obj/Debug/netcoreapp3.1/buoi3.genruntimeconfig.cache

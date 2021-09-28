@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{E626B46C-6BAD-4C70-8B26-B7394F9E2DE4}|Default">
+  <MonoDevelop.Ide.ItemProperties.buoi3 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="buoi3/Program.cs">
+    <Files>
+      <File FileName="buoi3/Program.cs" Line="170" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
