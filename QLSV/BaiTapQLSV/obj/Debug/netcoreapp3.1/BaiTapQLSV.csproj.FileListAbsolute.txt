@@ -1,0 +1,13 @@
+/Users/phuocnhat/Desktop/BaiTapQLSV/BaiTapQLSV/bin/Debug/netcoreapp3.1/BaiTapQLSV.deps.json
+/Users/phuocnhat/Desktop/BaiTapQLSV/BaiTapQLSV/bin/Debug/netcoreapp3.1/BaiTapQLSV.runtimeconfig.json
+/Users/phuocnhat/Desktop/BaiTapQLSV/BaiTapQLSV/bin/Debug/netcoreapp3.1/BaiTapQLSV.runtimeconfig.dev.json
+/Users/phuocnhat/Desktop/BaiTapQLSV/BaiTapQLSV/bin/Debug/netcoreapp3.1/BaiTapQLSV.dll
+/Users/phuocnhat/Desktop/BaiTapQLSV/BaiTapQLSV/bin/Debug/netcoreapp3.1/BaiTapQLSV.pdb
+/Users/phuocnhat/Desktop/BaiTapQLSV/BaiTapQLSV/obj/Debug/netcoreapp3.1/BaiTapQLSV.csproj.AssemblyReference.cache
+/Users/phuocnhat/Desktop/BaiTapQLSV/BaiTapQLSV/obj/Debug/netcoreapp3.1/BaiTapQLSV.GeneratedMSBuildEditorConfig.editorconfig
+/Users/phuocnhat/Desktop/BaiTapQLSV/BaiTapQLSV/obj/Debug/netcoreapp3.1/BaiTapQLSV.AssemblyInfoInputs.cache
+/Users/phuocnhat/Desktop/BaiTapQLSV/BaiTapQLSV/obj/Debug/netcoreapp3.1/BaiTapQLSV.AssemblyInfo.cs
+/Users/phuocnhat/Desktop/BaiTapQLSV/BaiTapQLSV/obj/Debug/netcoreapp3.1/BaiTapQLSV.csproj.CoreCompileInputs.cache
+/Users/phuocnhat/Desktop/BaiTapQLSV/BaiTapQLSV/obj/Debug/netcoreapp3.1/BaiTapQLSV.dll
+/Users/phuocnhat/Desktop/BaiTapQLSV/BaiTapQLSV/obj/Debug/netcoreapp3.1/BaiTapQLSV.pdb
+/Users/phuocnhat/Desktop/BaiTapQLSV/BaiTapQLSV/obj/Debug/netcoreapp3.1/BaiTapQLSV.genruntimeconfig.cache
