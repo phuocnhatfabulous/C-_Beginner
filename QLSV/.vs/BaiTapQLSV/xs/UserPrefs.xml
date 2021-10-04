@@ -3,8 +3,8 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="BaiTapQLSV/SinhVien.cs">
     <Files>
       <File FileName="BaiTapQLSV/SinhVien.cs" Line="1" Column="1" />
-      <File FileName="BaiTapQLSV/Program.cs" Line="1" Column="1" />
-      <File FileName="BaiTapQLSV/QuanLySinhVien.cs" Line="1" Column="1" />
+      <File FileName="BaiTapQLSV/Program.cs" />
+      <File FileName="BaiTapQLSV/QuanLySinhVien.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

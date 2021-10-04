@@ -2,10 +2,10 @@
 {
     class SinhVien
     {
-        public int ID { get; set; }
-        public string Name { get; set; }
-        public string Sex { get; set; }
-        public int Age { get; set; }
+        public int STT { get; set; }
+        public string HoTen { get; set; }
+        public string GioiTinh { get; set; }
+        public int Tuoi { get; set; }
         public double DiemToan {get; set; }
         public double DiemLy { get; set; }
         public double DiemHoa { get; set; }

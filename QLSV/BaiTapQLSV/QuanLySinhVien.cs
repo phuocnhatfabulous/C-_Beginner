@@ -19,12 +19,12 @@ namespace BaiTapQLSV
             int max = 1;
             if (ListSinhVien != null && ListSinhVien.Count > 0)
             {
-                max = ListSinhVien[0].ID;
+                max = ListSinhVien[0].STT;
                 foreach (SinhVien sv in ListSinhVien)
                 {
-                    if (max < sv.ID)
+                    if (max < sv.STT)
                     {
-                        max = sv.ID;
+                        max = sv.STT;
                     }
                 }
                 max++;
@@ -46,15 +46,15 @@ namespace BaiTapQLSV
         {
             // Khởi tạo một sinh viên mới
             SinhVien sv = new SinhVien();
-            sv.ID = GenerateID();
+            sv.STT = GenerateID();
             Console.Write("Nhap ten sinh vien: ");
-            sv.Name = Convert.ToString(Console.ReadLine());
+            sv.HoTen = Convert.ToString(Console.ReadLine());
 
             Console.Write("Nhap gioi tinh sinh vien: ");
-            sv.Sex = Convert.ToString(Console.ReadLine());
+            sv.GioiTinh = Convert.ToString(Console.ReadLine());
 
             Console.Write("Nhap tuoi sinh vien: ");
-            sv.Age = Convert.ToInt32(Console.ReadLine());
+            sv.Tuoi = Convert.ToInt32(Console.ReadLine());
 
             Console.Write("Nhap diem toan: ");
             sv.DiemToan = Convert.ToDouble(Console.ReadLine());
@@ -83,7 +83,7 @@ namespace BaiTapQLSV
                 // Nếu không nhập gì thì không cập nhật tên
                 if (name != null && name.Length > 0)
                 {
-                    sv.Name = name;
+                    sv.HoTen = name;
                 }
 
                 Console.Write("Nhap gioi tinh sinh vien: ");
@@ -91,7 +91,7 @@ namespace BaiTapQLSV
                 string sex = Convert.ToString(Console.ReadLine());
                 if (sex != null && sex.Length > 0)
                 {
-                    sv.Sex = sex;
+                    sv.GioiTinh = sex;
                 }
 
                 Console.Write("Nhap tuoi sinh vien: ");
@@ -99,7 +99,7 @@ namespace BaiTapQLSV
                 // Nếu không nhập gì thì không cập nhật tuổi
                 if (ageStr != null && ageStr.Length > 0)
                 {
-                    sv.Age = Convert.ToInt32(ageStr);
+                    sv.Tuoi = Convert.ToInt32(ageStr);
                 }
 
                 Console.Write("Nhap diem toan: ");
@@ -141,7 +141,7 @@ namespace BaiTapQLSV
         public void SortByID()
         {
             ListSinhVien.Sort(delegate (SinhVien sv1, SinhVien sv2) {
-                return sv1.ID.CompareTo(sv2.ID);
+                return sv1.STT.CompareTo(sv2.STT);
             });
         }
 
@@ -151,7 +151,7 @@ namespace BaiTapQLSV
         public void SortByName()
         {
             ListSinhVien.Sort(delegate (SinhVien sv1, SinhVien sv2) {
-                return sv1.Name.CompareTo(sv2.Name);
+                return sv1.HoTen.CompareTo(sv2.HoTen);
             });
         }
 
@@ -176,7 +176,7 @@ namespace BaiTapQLSV
             {
                 foreach (SinhVien sv in ListSinhVien)
                 {
-                    if (sv.ID == ID)
+                    if (sv.STT == ID)
                     {
                         searchResult = sv;
                     }
@@ -196,7 +196,7 @@ namespace BaiTapQLSV
             {
                 foreach (SinhVien sv in ListSinhVien)
                 {
-                    if (sv.Name.ToUpper().Contains(keyword.ToUpper()))
+                    if (sv.HoTen.ToUpper().Contains(keyword.ToUpper()))
                     {
                         searchResult.Add(sv);
                     }
@@ -258,15 +258,15 @@ namespace BaiTapQLSV
         public void ShowSinhVien(List<SinhVien> listSV)
         {
             // hien thi tieu de cot
-            Console.WriteLine("{0, -5} {1, -20} {2, -5} {3, 5} {4, 5} {5, 5} {6, 5} {7, 10} {8, 10}",
-                  "ID", "Name", "Sex", "Age", "Toan", "Ly", "Hoa", "Diem TB", "Hoc Luc");
+            Console.WriteLine("{0, -5} {1, -20} {2, -10} {3, 5} {4, 10} {5, 10} {6, 10} {7, 10} {8, 10}",
+                  "STT", "Ho ten", "Gioi tinh", "Tuoi", "Toan", "Ly", "Hoa", "Diem TB", "Hoc Luc");
             // hien thi danh sach sinh vien
             if (listSV != null && listSV.Count > 0)
             {
                 foreach (SinhVien sv in listSV)
                 {
-                    Console.WriteLine("{0, -5} {1, -20} {2, -5} {3, 5} {4, 5} {5, 5} {6, 5} {7, 10} {8, 10}",
-                                      sv.ID, sv.Name, sv.Sex, sv.Age, sv.DiemToan, sv.DiemLy, sv.DiemHoa,
+                    Console.WriteLine("{0, -5} {1, -20} {2, -10} {3, 5} {4, 10} {5, 10} {6, 10} {7, 8} {8, 9}",
+                                      sv.STT, sv.HoTen, sv.GioiTinh, sv.Tuoi, sv.DiemToan, sv.DiemLy, sv.DiemHoa,
                                       sv.DiemTB, sv.HocLuc);
                 }
             }

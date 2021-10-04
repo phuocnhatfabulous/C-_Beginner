@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/phuocnhat/Desktop/BaiTapQLSV/BaiTapQLSV/BaiTapQLSV.csproj",
+      "projectUniqueName": "/Users/phuocnhat/C-_Beginner/QLSV/BaiTapQLSV/BaiTapQLSV.csproj",
       "projectName": "BaiTapQLSV",
-      "projectPath": "/Users/phuocnhat/Desktop/BaiTapQLSV/BaiTapQLSV/BaiTapQLSV.csproj",
+      "projectPath": "/Users/phuocnhat/C-_Beginner/QLSV/BaiTapQLSV/BaiTapQLSV.csproj",
       "packagesPath": "/Users/phuocnhat/.nuget/packages/",
-      "outputPath": "/Users/phuocnhat/Desktop/BaiTapQLSV/BaiTapQLSV/obj/",
+      "outputPath": "/Users/phuocnhat/C-_Beginner/QLSV/BaiTapQLSV/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/phuocnhat/.config/NuGet/NuGet.Config"
