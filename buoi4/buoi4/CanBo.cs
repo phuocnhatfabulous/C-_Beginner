@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
+
 namespace buoi4
 {
     //Gop chung voi class QLCB
@@ -9,11 +11,12 @@ namespace buoi4
         public short NamSinh;
         public string GioiTinh;
         public string DiaChi;
-        public List<ThongTin> ListCongNhan = null;
+        private List<ThongTin> ListCongNhan = null;
 
         //Ham tao
         public CanBo()
-        {    
+        {
+            ListCongNhan = new List<ThongTin>();
         }
 
         //Nhap thong tin ca nha
@@ -29,6 +32,8 @@ namespace buoi4
             DiaChi = Console.ReadLine();
         }
 
+     
+
         //Hien thi thong tin ca nhan
         public void HienThi()
         {
@@ -38,21 +43,43 @@ namespace buoi4
             Console.WriteLine("Dia chi: "+ DiaChi);
         }
 
-        //Tim kiem cong nhan theo ten
-        public List<CanBo> FindByName(String keyword)
+        public int SoLuongCN()
         {
-            List<CanBo> searchResult = new List<CanBo>();
+            int Count = 0;
+            if (ListCongNhan != null)
+            {
+                Count = ListCongNhan.Count;
+            }
+            return Count;
+        }
+        //Tim kiem cong nhan theo ten
+        public List<ThongTin> TimKiem(String keyword)
+        {
+            List<ThongTin> searchResult = new List<ThongTin>();
             if (ListCongNhan != null && ListCongNhan.Count > 0)
             {
-                foreach (CanBo sv in ListCongNhan)
+                foreach (ThongTin wk in ListCongNhan)
                 {
-                    if (sv.Hoten.ToUpper().Contains(keyword.ToUpper()))
+                    if (wk.HoTen.ToUpper().Contains(keyword.ToUpper()))
                     {
-                        searchResult.Add(sv);
+                        searchResult.Add(wk);
                     }
                 }
             }
             return searchResult;
+        }
+        public void ShowCongNhan(List<ThongTin> listCN)
+        {
+            // hien thi danh sach sinh vien
+            if (listCN != null && listCN.Count > 0)
+            {
+                foreach (ThongTin wk in listCN)
+                {
+                    Console.WriteLine("{0, -5} {1, -20} {2, -5} {3, 5} {4, 5}",
+                                      wk.HoTen, wk.NamSinh, wk.GioiTinh, wk.DiaChi);
+                }
+            }
+            Console.WriteLine();
         }
     }
 }

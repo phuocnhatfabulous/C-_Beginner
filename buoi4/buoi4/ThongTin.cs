@@ -1,17 +1,11 @@
-﻿using System;
-namespace buoi4
+﻿namespace buoi4
 {
-    class ThongTin
+    public class ThongTin
     {
-        public int ID { get; set; }
-        public string Name { get; set; }
-        public string Sex { get; set; }
-        public int Age { get; set; }
-        public double DiemToan { get; set; }
-        public double DiemLy { get; set; }
-        public double DiemHoa { get; set; }
-        public double DiemTB { get; set; }
-        public string HocLuc { get; set; }
+        public string HoTen { get; set; }
+        public int NamSinh { get; set; }
+        public string GioiTinh { get; set; }
+        public string DiaChi { get; set; }
     }
 }
-}
+

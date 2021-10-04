@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace buoi4
 {
@@ -21,20 +22,22 @@ namespace buoi4
                 switch (choice)
                 {
                     case 1:
-                        a.Acceptdetail();
+                        a.NhapTT();
                         break;
                     case 2:
-                        a.InMang();
+                        if (a.SoLuongCN() > 0)
+                        {
+                            Console.WriteLine("\n4. Tim kiem sinh vien theo ten.");
+                            Console.Write("\nNhap ten de tim kiem: ");
+                            string hoten = Convert.ToString(Console.ReadLine());
+                            List<ThongTin> searchResult = a.TimKiem(hoten);
+                            a.ShowCongNhan(searchResult);
+                        }
                         break;
                     case 3:
-                        a.Strings();
+                        a.HienThi();
                         break;
                     case 4:
-                        b.InputInfo("Triet hoc", "Nguyen Van A", "Hoc thuat", 3127);
-                        Console.WriteLine("Thong tin sach 1: \n");
-                        b.Display();
-                        break;
-                    case 5:
                         Environment.Exit(0);
                         break;
                     default:
