@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/phuocnhat/Projects/buoi3/buoi3/buoi3.csproj": {}
+    "/Users/phuocnhat/C-_Beginner/buoi3/buoi3/buoi3.csproj": {}
   },
   "projects": {
-    "/Users/phuocnhat/Projects/buoi3/buoi3/buoi3.csproj": {
+    "/Users/phuocnhat/C-_Beginner/buoi3/buoi3/buoi3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/phuocnhat/Projects/buoi3/buoi3/buoi3.csproj",
+        "projectUniqueName": "/Users/phuocnhat/C-_Beginner/buoi3/buoi3/buoi3.csproj",
         "projectName": "buoi3",
-        "projectPath": "/Users/phuocnhat/Projects/buoi3/buoi3/buoi3.csproj",
+        "projectPath": "/Users/phuocnhat/C-_Beginner/buoi3/buoi3/buoi3.csproj",
         "packagesPath": "/Users/phuocnhat/.nuget/packages/",
-        "outputPath": "/Users/phuocnhat/Projects/buoi3/buoi3/obj/",
+        "outputPath": "/Users/phuocnhat/C-_Beginner/buoi3/buoi3/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/phuocnhat/.config/NuGet/NuGet.Config"
