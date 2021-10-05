@@ -1,17 +1,18 @@
 ﻿<Properties StartupConfiguration="{949F6CF3-13B5-464C-94C9-72773A56CC1D}|Default">
   <MonoDevelop.Ide.ItemProperties.buoi4 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="buoi4/Main.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="buoi4/CanBo.cs">
     <Files>
       <File FileName="buoi4/Main.cs" Line="6" Column="15" />
-      <File FileName="buoi4/CanBo.cs" Line="46" Column="29" />
+      <File FileName="buoi4/CanBo.cs" Line="64" Column="14" />
       <File FileName="buoi4/ThongTin.cs" Line="3" Column="12" />
+      <File FileName="buoi4/NhanVien.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="buoi4" expanded="True">
             <Node name="buoi4" expanded="True">
-              <Node name="Main.cs" selected="True" />
+              <Node name="CanBo.cs" selected="True" />
             </Node>
           </Node>
         </State>

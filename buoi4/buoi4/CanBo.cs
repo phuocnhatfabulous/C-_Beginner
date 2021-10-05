@@ -13,11 +13,25 @@ namespace buoi4
         public string DiaChi;
         private List<ThongTin> ListCongNhan = null;
 
-        //Ham tao
+        //Ham tao khong co tham so
         public CanBo()
         {
-            ListCongNhan = new List<ThongTin>();
+            //ListCongNhan = new List<ThongTin>();
+            Hoten = "Doan Phuoc Nhat";
+            NamSinh = 2001;
+            GioiTinh = "nam";
+            DiaChi = "999/1, haha";
         }
+        //Ham tao co tham so
+        public CanBo(string name, short age, string gender, string addr)
+        {
+            Hoten = name;
+            NamSinh = age;
+            GioiTinh = gender;
+            DiaChi = addr;
+        }
+        //Destructure
+        ~CanBo() { }
 
         //Nhap thong tin ca nha
         public void NhapTT()
