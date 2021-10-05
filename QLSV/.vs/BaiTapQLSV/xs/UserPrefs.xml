@@ -1,17 +1,17 @@
 ﻿<Properties StartupConfiguration="{4458718A-B4A8-4348-8B89-05E58F4942F6}|Default">
   <MonoDevelop.Ide.ItemProperties.BaiTapQLSV PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BaiTapQLSV/SinhVien.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BaiTapQLSV/QuanLySinhVien.cs">
     <Files>
-      <File FileName="BaiTapQLSV/SinhVien.cs" Line="1" Column="1" />
-      <File FileName="BaiTapQLSV/Program.cs" />
-      <File FileName="BaiTapQLSV/QuanLySinhVien.cs" />
+      <File FileName="BaiTapQLSV/SinhVien.cs" Line="8" Column="38" />
+      <File FileName="BaiTapQLSV/Program.cs" Line="1" Column="1" />
+      <File FileName="BaiTapQLSV/QuanLySinhVien.cs" Line="277" Column="51" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BaiTapQLSV" expanded="True">
             <Node name="BaiTapQLSV" expanded="True">
-              <Node name="SinhVien.cs" selected="True" />
+              <Node name="QuanLySinhVien.cs" selected="True" />
             </Node>
           </Node>
         </State>
