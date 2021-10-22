@@ -48,12 +48,12 @@ namespace WindowsFormsApp9
             this.Pepsibt = new System.Windows.Forms.Button();
             this.Shrimpballbt = new System.Windows.Forms.Button();
             this.CheeseCowbtn = new System.Windows.Forms.Button();
-            this.Deletebt = new System.Windows.Forms.Button();
+            this.DeleteBtn = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.Orderbt = new System.Windows.Forms.Button();
+            this.OrderBtn = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
+            this.ConBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -68,7 +68,6 @@ namespace WindowsFormsApp9
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label1
             // 
@@ -286,19 +285,19 @@ namespace WindowsFormsApp9
             this.CheeseCowbtn.UseVisualStyleBackColor = true;
             this.CheeseCowbtn.Click += new System.EventHandler(this.OrderClick);
             // 
-            // Deletebt
+            // DeleteBtn
             // 
-            this.Deletebt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Deletebt.Image = ((System.Drawing.Image)(resources.GetObject("Deletebt.Image")));
-            this.Deletebt.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Deletebt.Location = new System.Drawing.Point(47, 320);
-            this.Deletebt.Name = "Deletebt";
-            this.Deletebt.Size = new System.Drawing.Size(85, 39);
-            this.Deletebt.TabIndex = 3;
-            this.Deletebt.Text = "Delete";
-            this.Deletebt.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.Deletebt.UseVisualStyleBackColor = true;
-            this.Deletebt.Click += new System.EventHandler(this.Deletebt_Click);
+            this.DeleteBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DeleteBtn.Image = ((System.Drawing.Image)(resources.GetObject("DeleteBtn.Image")));
+            this.DeleteBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.DeleteBtn.Location = new System.Drawing.Point(47, 320);
+            this.DeleteBtn.Name = "DeleteBtn";
+            this.DeleteBtn.Size = new System.Drawing.Size(85, 39);
+            this.DeleteBtn.TabIndex = 3;
+            this.DeleteBtn.Text = "Delete";
+            this.DeleteBtn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.DeleteBtn.UseVisualStyleBackColor = true;
+            this.DeleteBtn.Click += new System.EventHandler(this.Deletebt_Click);
             // 
             // label2
             // 
@@ -329,21 +328,19 @@ namespace WindowsFormsApp9
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(139, 21);
             this.comboBox1.TabIndex = 5;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // Orderbt
+            // OrderBtn
             // 
-            this.Orderbt.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Orderbt.Image = ((System.Drawing.Image)(resources.GetObject("Orderbt.Image")));
-            this.Orderbt.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Orderbt.Location = new System.Drawing.Point(449, 320);
-            this.Orderbt.Name = "Orderbt";
-            this.Orderbt.Size = new System.Drawing.Size(86, 34);
-            this.Orderbt.TabIndex = 6;
-            this.Orderbt.Text = "Order";
-            this.Orderbt.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.Orderbt.UseVisualStyleBackColor = true;
-            this.Orderbt.Click += new System.EventHandler(this.Orderbt_Click);
+            this.OrderBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OrderBtn.Image = ((System.Drawing.Image)(resources.GetObject("OrderBtn.Image")));
+            this.OrderBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.OrderBtn.Location = new System.Drawing.Point(449, 320);
+            this.OrderBtn.Name = "OrderBtn";
+            this.OrderBtn.Size = new System.Drawing.Size(86, 34);
+            this.OrderBtn.TabIndex = 6;
+            this.OrderBtn.Text = "Order";
+            this.OrderBtn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.OrderBtn.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
@@ -352,32 +349,32 @@ namespace WindowsFormsApp9
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(502, 177);
             this.dataGridView1.TabIndex = 7;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // button1
+            // ConBtn
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(138, 320);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(93, 39);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Clear all";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.UseVisualStyleBackColor = true;
+            this.ConBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ConBtn.Image = ((System.Drawing.Image)(resources.GetObject("ConBtn.Image")));
+            this.ConBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ConBtn.Location = new System.Drawing.Point(138, 320);
+            this.ConBtn.Name = "ConBtn";
+            this.ConBtn.Size = new System.Drawing.Size(93, 39);
+            this.ConBtn.TabIndex = 8;
+            this.ConBtn.Text = "Connect";
+            this.ConBtn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.ConBtn.UseVisualStyleBackColor = true;
+            this.ConBtn.Click += new System.EventHandler(this.ConBtn_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(590, 554);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.ConBtn);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.Orderbt);
+            this.Controls.Add(this.OrderBtn);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.Deletebt);
+            this.Controls.Add(this.DeleteBtn);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
@@ -411,12 +408,12 @@ namespace WindowsFormsApp9
         private System.Windows.Forms.Button Pepsibt;
         private System.Windows.Forms.Button Shrimpballbt;
         private System.Windows.Forms.Button CheeseCowbtn;
-        private System.Windows.Forms.Button Deletebt;
+        private System.Windows.Forms.Button DeleteBtn;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Button Orderbt;
+        private System.Windows.Forms.Button OrderBtn;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button ConBtn;
     }
 }
 

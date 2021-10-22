@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace WindowsFormsApp9
 {
@@ -28,29 +29,9 @@ namespace WindowsFormsApp9
         }
         int quantity = 0;
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void label2_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-           
-
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-        private void Orderbt_Click(object sender, EventArgs e)
-        {
-            
         }
 
         private void OrderClick(object sender, EventArgs e)
@@ -75,5 +56,18 @@ namespace WindowsFormsApp9
             int rowIndex = dataGridView1.CurrentCell.RowIndex;
             dataGridView1.Rows.RemoveAt(rowIndex);
         }
+
+        private void ConBtn_Click(object sender, EventArgs e)
+        {
+            Form2 frm = new Form2();
+            frm.Show();
+           
+
+        }
+
+        private void OrderBtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
-}
+} 
